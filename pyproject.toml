@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "mobizon-client"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Stanislav Tsoy <dev.stanislav@gmail.com>"]
 readme = "README.md"
 packages = [{include = "mobizon_client", from = "src"}]
+repository = "https://github.com/devstsoy/mobizon-client"
 
 [tool.poetry.dependencies]
 python = "^3.10"
